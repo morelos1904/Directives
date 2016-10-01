@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<script src="../bower_components/angular/angular.js"></script>
+<script src="js/scopeFalse.js"></script>
+<style>
+	bold{
+		color:red;
+	}
+	h5{
+		cursor:pointer;
+	}
+</style>
+<body >
+
+ <div ng-app="ScopeFalse">   
+    <div ng-controller="Ctrl1">
+        <h5 ng-click="reverseName()">
+			Hey 
+			<bold>{{name}}</bold>
+			Click me to reverse your name
+		</h5>
+        <div my-directive class='directive'></div>
+    </div>
+</div>
+
+</body>
+
+</html>

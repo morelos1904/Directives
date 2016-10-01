@@ -1,0 +1,13 @@
+{
+  "name": "Skeleton Project",
+  "description": "",
+  "main": "",
+  "authors": [
+    "FearDark"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/morelos1904/SkeletonProject",
+  "dependencies": {
+    "angular": "^1.5.8"
+  }
+}
